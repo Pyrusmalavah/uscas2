@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_clas"
+            android:icon="@drawable/ic_classrom"
+            android:title="Today's Class" />
+        <item
+            android:id="@+id/nav_sign"
+            android:icon="@drawable/ic_sign"
+            android:title="Sign" />
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/ic_course"
+            android:title="My Course" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_callendar"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_nb"
+            android:icon="@drawable/ic_nb"
+            android:title="NoticeBoard" />
+    </group>
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

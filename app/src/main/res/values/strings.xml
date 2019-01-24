@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">uscas</string>
+
+    <!-- login details -->
+
+
+    <string name="pref_file">com.pyrusoft.pybot.preference_file</string>
+    <string name="pref_login_status">com.pyrusoft.pybot.preference_login_status</string>
+    <string name="pref_reg_num">com.pyrusoft.pybot.preference_registration_number</string>
+    <string name="pref_user_name">com.pyrusoft.pybot.preference_user_name</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="qr_signing">Sign Attendance</string>
+    <string name="qr_scan">Scan QR-Code</string>
+    <string name="splash_screen">USCAS</string>
+    <string name="splash_full_name">University Students Class Attendance System</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="login_form">Login Form</string>
+    <string name="registration_number">Registration Number</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
